@@ -1,7 +1,7 @@
 import FormSubmit from "@/components/form-submit";
 import { storePost } from "@/lib/posts";
 
-import { redirect } from "next/dist/server/api-utils";
+import { redirect } from "next/navigation";
 
 export default function NewPostPage() {
   async function createPost(formData) {
